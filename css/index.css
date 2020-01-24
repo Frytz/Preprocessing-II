@@ -173,6 +173,7 @@ header {
   justify-content: space-between;
   align-items: center;
   border-bottom: 1px dashed #C0C0C0;
+  width: 100%;
   margin: 20px 0;
   padding: 20px 0;
 }
@@ -183,12 +184,7 @@ header {
   }
 }
 header nav {
-  margin: 0 10px;
-}
-@media ( max-width: 500px ) {
-  header nav {
-    margin: 0 auto;
-  }
+  margin-right: 20px;
 }
 header nav a {
   margin-left: 25px;
